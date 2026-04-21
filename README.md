@@ -11,4 +11,4 @@ System for digitizing patient intake workflows in municipal healthcare operation
 Patient → Next.js → Validation Layer → Data Store (Google Sheets) → Staff Interface  
 
 ## Stack
-Next.js · Node.js · Google Sheets API · TailwindCSS  
+Next.js · Node.js · Google Sheets API
