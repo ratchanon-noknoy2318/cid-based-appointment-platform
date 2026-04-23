@@ -1,12 +1,10 @@
 # Patient Appointment System
 
-> A web-based system for managing patient appointments in healthcare facilities, designed to reduce waiting time and improve scheduling efficiency.
+> A web-based appointment management system designed to improve scheduling efficiency between patients and healthcare staff by reducing manual coordination and waiting time.
 
 ---
 
 ## 🚀 Getting Started
-
-These instructions will help you set up and run the project on your local machine.
 
 ### 📌 Prerequisites
 - Node.js (v16 or higher)
@@ -17,79 +15,73 @@ These instructions will help you set up and run the project on your local machin
 
 ## 📥 Installation
 
-### 1. Clone the repository
+### 1. Clone repository
 git clone https://github.com/ratchanon-noknoy2318/patient-appointment-system.git
 
-### 2. Go to project directory
+### 2. Navigate to project
 cd patient-appointment-system
 
 ### 3. Install dependencies
 npm install
 
-### 4. Run the project
+### 4. Start development server
 npm start
 
-The app will run at:
+Application runs at:
 http://localhost:3000
 
 ---
 
-## 💡 Usage
+## 💡 System Overview
 
-This system is used for managing hospital appointments.
+This system enables efficient appointment handling between patients and hospital staff with real-time updates and structured scheduling.
 
-Main functions:
-- Patients can book appointments with doctors
-- Staff can manage appointment schedules
-- View, update, or cancel appointments
-- Track appointment status
+Key functionalities:
+- Patient appointment booking
+- Schedule management for doctors and staff
+- Appointment status tracking (create, update, cancel)
+- Administrative overview dashboard
 
 ---
 
 ## ✨ Features
 
-- [x] Patient appointment booking system
-- [x] Appointment management (CRUD)
-- [x] Doctor schedule management
-- [x] Admin/staff dashboard
-- [ ] Email/SMS notification system
-- [ ] Authentication & role-based access control
-- [ ] Report generation
+- Patient appointment booking system
+- CRUD-based appointment management
+- Doctor schedule management
+- Admin dashboard for operations
+- Google Sheets-based data storage integration
 
 ---
 
-## 🛠️ Built With
+## 🛠️ Tech Stack
 
-- React - Frontend framework
-- Node.js - Backend runtime
-- Express - API server
-- Tailwind CSS - Styling
-- MySQL - Database
+- React - Frontend UI
+- Node.js - Runtime environment
+- Express - Backend API
+- Google Sheets API - Data storage
 
 ---
 
 ## 📁 Project Structure
 
 patient-appointment-system/
-├── client/          (Frontend - React)
-├── server/          (Backend - Node.js + Express)
-├── database/        (SQL scripts)
+├── client/        (React frontend)
+├── server/        (API backend)
+├── services/      (Google Sheets integration logic)
 └── README.md
 
 ---
 
-## 📌 Future Improvements
-- Mobile app version (React Native)
-- Real-time notifications
+## 📈 Future Improvements
+
+- Authentication and role-based access control
+- Notification system (email/SMS)
 - Calendar integration
-- Online payment system
+- Migration to scalable database system
 
 ---
 
 ## 👨‍💻 Author
+
 GitHub: https://github.com/ratchanon-noknoy2318
-
----
-
-## 📄 License
-This project is for educational purposes only.
